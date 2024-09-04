@@ -472,9 +472,9 @@ dashmap = "6.0.1"
 
 Now, let's test the app to see how this works:
 
-1. Start the server: Run your Rust application using cargo run. This will start the server on http://0.0.0.0:9009.
-2. Add balance to a user account: Visit http://0.0.0.0:9009/add_balance in your browser. This will create a new user account with 100,000 units of currency and return the user's UUID.
-3. Attempt to make transactions:Visit http://0.0.0.0:9009/transaction in your browser. You'll see a form where you can enter transaction details.
+1. **Start the server:** Run your Rust application using cargo run. This will start the server on http://0.0.0.0:9009.
+2. **Add balance to a user account:** Visit http://0.0.0.0:9009/add_balance in your browser. This will create a new user account with 100,000 units of currency and return the user's UUID.
+3. **Attempt to make transactions:** Visit http://0.0.0.0:9009/transaction in your browser. You'll see a form where you can enter transaction details.
    - Use the UUID from step 2 (59780925-8698-4e25-b344-109b067babb3) as the "From User ID"
    - Generate a new UUID (you can use an online UUID generator or revisit the `/add_balance` endpoint to make a new user) for the "To User ID"
    - Enter an amount and optional description
